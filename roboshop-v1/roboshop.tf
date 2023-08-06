@@ -1,3 +1,24 @@
+varibele "ami" {
+  default = "ami-03265a0778a880afb"
+}
+variable "security_group" {
+  default =  ["sg-0d4ae6cf839bb7a89"]
+
+}
+variable "instance_type" {
+  default = "t3.small"
+}
+
+variable "zone_id" {
+  default = "Z01549722JL2MSDGK9YRB"
+}
+
+
+
+
+
+
+
 resource "aws_instance" "frontend" {
   ami           = "ami-03265a0778a880afb"
   instance_type = "t3.small"
