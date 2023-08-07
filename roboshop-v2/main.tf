@@ -2,7 +2,7 @@ variable "ami" {
   default = "ami-03265a0778a880afb"
 }
 variable "security_group" {
-  default =  ["sg-0d4ae6cf839bb7a89"]
+  default =  ["sg-091dc1de6eb5428f3"]
 
 }
 variable "instance_type" {
@@ -10,7 +10,8 @@ variable "instance_type" {
 }
 
 variable "zone_id" {
-  default = "Z01549722JL2MSDGK9YRB"
+  default = "Z0703416L3QMQ3P7JEIQ"
+
 }
 
 variable "component" {
