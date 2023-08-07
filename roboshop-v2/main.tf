@@ -21,7 +21,7 @@ variable "component" {
     user = {name= "user-dev"}
     redis = {name = "redis-dev"}
     cart = {name = "cart-dev"}
-    mysql = {nme = "mysql-dev"}
+    mysql = {name = "mysql-dev"}
     shipping = {name = "shipping-dev"}
     rabbitmq = {name = "rabbitmq-dev"}
     payment = {name = "payment-dev"}
